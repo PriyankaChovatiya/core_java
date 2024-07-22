@@ -1,7 +1,7 @@
-class Test{
 
-}
+public class Main{
 
-class Student {
-
+    public Main(){
+        System.out.println("Network is created using constructor");
+    }
 }
