@@ -1,12 +1,17 @@
 class IfExample {
 
     public static void main(String arg[]){
-        int n = -10;
-        if(n>0){
-            //If body: if this condition true then print this statement
-           System.out.println("Yes it is grater then " +n);
-        } else {
-            System.out.println("No it is not grater then " +n);
+        int marks = 91;
+
+        if(marks > 90){
+            System.out.println("Grade A");
+        }else if( marks > 80 && marks <= 90){
+            System.out.println("Grade B");
+        }else if (marks <= 80) {
+            System.out.println("Fail");
+        }else{
+            System.out.println("Not valid Outputs");
         }
+
     }
 }
