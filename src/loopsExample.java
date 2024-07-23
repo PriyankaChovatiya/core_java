@@ -2,13 +2,10 @@ class loopsExample {
 
     public static void main(String args[]){
 
-       //do while loop
-        int i = 0;
-        do {
-            System.out.println(i);
-            i++;
+        //for each loop : used for list,collection and array
+        int num[] = {10,11,12,13,14,15,16,17,18,19,20};
+        for(int i:num){
+            System.out.print(i+" ");
         }
-        while (i < 5);
-
     }
 }
