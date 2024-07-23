@@ -1,16 +1,16 @@
 class IfExample {
 
     public static void main(String arg[]){
-        int marks = 91;
+        int num = 1020;
 
-        if(marks > 90){
-            System.out.println("Grade A");
-        }else if( marks > 80 && marks <= 90){
-            System.out.println("Grade B");
-        }else if (marks <= 80) {
-            System.out.println("Fail");
+        if ( num > 0){
+            if(num%2 == 0){
+                System.out.println("The number is Even");
+            }else{
+                System.out.println("The number is Odd");
+            }
         }else{
-            System.out.println("Not valid Outputs");
+            System.out.println("Number is not valid ");
         }
 
     }
