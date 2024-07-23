@@ -2,17 +2,19 @@ class Test {
 
 
     public static void main(String[] args){
-        System.out.print("Hello");
-        System.out.println(" world");
 
-        int a=10;
-        String name = "Priyaa";
-        System.out.println(a);
-        System.out.println(name);
-        a = 20;
-        name = "Mastermind";
-        System.out.println(a);
-        System.out.println(name);
+        //Implicit Type casting: Automatically by JVM
+        int a = 50;
+        double i= a;
+        System.out.println("Implicit Type casting:"+i);
+
+        //Explicit Type casting: Forcefully done by the programmer
+        double b = 40.0;
+        int i2 = (int) b;
+        System.out.println("Explicit Type casting:"+i2);
+
+
+
 
 
     }
