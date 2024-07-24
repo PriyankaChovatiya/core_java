@@ -7,6 +7,10 @@ class Student {
     String StudentName;
     String StudentCity;
 
+    //default constructor
+    public Student(){
+        System.out.println("Creating Object");
+    }
     //Behaviour: members methods : methods (Function)
     public void Study(){
         System.out.println(StudentName+ " is studying");
