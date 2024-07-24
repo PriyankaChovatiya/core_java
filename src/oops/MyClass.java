@@ -2,6 +2,7 @@ package oops;
 
 abstract public class MyClass {
     public void cal(){
+
         System.out.println("Calculating Results");
     }
 
