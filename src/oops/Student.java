@@ -29,8 +29,8 @@ class Student {
         System.out.println(StudentName+ " is studying");
     }
 //multiple method : method overloading
-    public  void Study(String name){
-       StudentName = name;
+    public  void Study(String Studentname){
+       this.StudentName = Studentname;
     }
 
     public void StudentFullDetails(){
