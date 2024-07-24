@@ -6,7 +6,6 @@ public class Demo {
         //Now create Object
         Student st1,st2;
         st1 = new Student();
-        st2 = new Student();
 
         st1.StudentId   = 10;
         st1.StudentName = "Priyaa";
@@ -16,13 +15,13 @@ public class Demo {
 
             System.out.println();
 
+        st2 = new Student(1020);
+
         st2.StudentId   = 20;
         st2.StudentName = "MasterMind";
         st2.StudentCity = "Raj";
         st2.Study();
         st2.StudentFullDetails();
-
-
 
 
     }

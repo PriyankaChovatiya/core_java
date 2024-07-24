@@ -9,8 +9,14 @@ class Student {
 
     //default constructor
     public Student(){
-        System.out.println("Creating Object");
+        System.out.println("Creating Object: non parameterized constructor");
     }
+
+    //parameterized constructor
+    public Student(int st){
+        System.out.println("Parameterized constructor");
+    }
+
     //Behaviour: members methods : methods (Function)
     public void Study(){
         System.out.println(StudentName+ " is studying");
