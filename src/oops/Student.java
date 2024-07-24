@@ -28,6 +28,10 @@ class Student {
     public void Study(){
         System.out.println(StudentName+ " is studying");
     }
+//multiple method : method overloading
+    public  void Study(String name){
+       StudentName = name;
+    }
 
     public void StudentFullDetails(){
         System.out.println("Student id: "+StudentId);
