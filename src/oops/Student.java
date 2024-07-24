@@ -17,6 +17,13 @@ class Student {
         System.out.println("Parameterized constructor");
     }
 
+    //Constructor with students parameters
+    public Student(int id,String name, String city){
+        StudentId = id;
+        StudentName = name;
+        StudentCity = city;
+    }
+
     //Behaviour: members methods : methods (Function)
     public void Study(){
         System.out.println(StudentName+ " is studying");

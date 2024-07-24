@@ -15,11 +15,11 @@ public class Demo {
 
             System.out.println();
 
-        st2 = new Student(1020);
+        st2 = new Student(1020, "Priyaa M", "Banglore");
 
-        st2.StudentId   = 20;
-        st2.StudentName = "MasterMind";
-        st2.StudentCity = "Raj";
+//        st2.StudentId   = 20;
+//        st2.StudentName = "MasterMind";
+//        st2.StudentCity = "Raj";
         st2.Study();
         st2.StudentFullDetails();
 
