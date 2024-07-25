@@ -25,6 +25,11 @@ class Test
             System.out.println("No class found");
             System.out.println(e.getMessage());
         }
+        //always execute
+        finally {
+            System.out.println("It is finally block");
+            System.out.println("Closing all the resources");
+        }
         System.out.println("Finished....");
 
     }
