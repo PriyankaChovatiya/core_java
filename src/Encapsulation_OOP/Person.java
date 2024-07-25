@@ -1,6 +1,6 @@
-package Polymorphism_OOP;
+package Encapsulation_OOP;
 
-//Polymorphism : data and methods are binds together in single unit
+//Encapsulation: data and methods are binds together in single unit
 //Private : only access the variable within that class
 //TO access outside we are using get and set method
 //Get method : get the variable (Return the variable), (getName)
